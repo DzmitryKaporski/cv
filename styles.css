@@ -2,6 +2,12 @@ body {
   font-size: 1.5em;
 }
 
+@media (max-width: 500px) {
+  body {
+    font-size: 1em;
+  }
+}
+
 h1,
 h2 {
   color: rgba(0, 0, 0, 0.372);
@@ -247,12 +253,6 @@ button {
   margin: 20px 0 20px 0;
 }
 
-@media (max-width: 430px) {
-  .aside__flex {
-    font-size: 18px;
-  }
-}
-
 .aside__skill {
   margin: 40px 0 40px 0;
 }
@@ -278,69 +278,6 @@ button {
   margin-top: 15px;
   display: flex;
   justify-content: center;
-}
-
-.aside__footer-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media (max-width: 1040px) {
-  .aside__footer-wrap {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
-@media (max-width: 500px) {
-  .aside__footer-wrap {
-    flex-direction: column;
-  }
-
-  .aside__footer-github {
-    margin-bottom: -120px;
-  }
-  .aside__footer-school {
-    padding-left: 20px;
-  }
-}
-
-.fa-github {
-  font-size: 90px;
-  color: rgb(151, 141, 141);
-}
-
-@media (max-width: 1250px) {
-  .aside__footer-school {
-    margin: 90px 20px 20px 0;
-  }
-}
-
-@media (max-width: 1040px) {
-  .aside__footer-school {
-    margin: 80px 20px 80px 0;
-  }
-}
-
-.fa-github {
-  font-size: 130px;
-}
-
-.aside__footer-github {
-  margin-left: 30px;
-}
-
-.aside__footer-img {
-  margin: 80px 40px 20px 20px;
-  height: 147px;
-  transition: all 1s ease-out;
-}
-
-.aside__footer-img:hover {
-  opacity: 1;
-  transform: scale(1.1);
-  color: rgba(0, 0, 0, 0.47);
 }
 
 .portfolio__list {
@@ -382,7 +319,7 @@ button {
 
 .section-information__about-me-box {
   margin-top: 30px;
-  padding: 15px 15px 130px 15px;
+  padding: 16px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
