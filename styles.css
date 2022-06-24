@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5em;
 }
 
@@ -87,8 +90,7 @@ button {
 }
 
 .page {
-  display: flex;
-  justify-content: center;
+  width: 1600px;
 }
 
 .header {
@@ -396,40 +398,36 @@ a,
 
 .fa-linkedin:hover,
 .fa-github-square:hover {
-  box-shadow: 0 10px 10px rgba(135, 122, 122, 0.469);
-  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 2px 3px rgba(8, 8, 121, 0.509);
   background-color: #565656;
   color: transparent;
 }
 
 .gradient-progressbar progress {
   appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   border: none;
   background: #eee;
   width: 100%;
   height: 10x;
   border-radius: 9px;
 }
+
 .gradient-progressbar progress::-webkit-progress-bar {
   background: #eeeeee;
   border-radius: 9px;
 }
+
 .gradient-progressbar progress::-webkit-progress-value {
-  background: linear-gradient(
-    to bottom,
-    rgb(197, 197, 197) 0%,
-    rgba(220, 220, 220, 0.951) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgb(197, 197, 197) 0%,
+      rgba(220, 220, 220, 0.951) 100%);
   border-radius: 9px;
 }
+
 .gradient-progressbar progress::-moz-progress-bar {
-  background: linear-gradient(
-    to bottom,
-    rgb(197, 197, 197) 0%,
-    rgba(220, 220, 220, 0.951) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgb(197, 197, 197) 0%,
+      rgba(220, 220, 220, 0.951) 100%);
   border-radius: 9px;
 }
 
