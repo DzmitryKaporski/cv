@@ -129,8 +129,12 @@ button {
 }
 
 .header__img {
+  width: 140px;
+  height: 150px;
   box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
-  border-radius: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+
 }
 
 .header__popup {
@@ -163,9 +167,9 @@ button {
 }
 
 .header__popup-qrcode {
-  margin-left: 10px;
-  width: 92%;
-  height: 82%;
+  margin-left: 14px;
+  width: 82%;
+  height: 72%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
