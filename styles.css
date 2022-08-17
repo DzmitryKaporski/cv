@@ -265,9 +265,6 @@ button {
 
 .aside__headline {
   width: 100%;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.47);
 }
 
 .aside__email {
