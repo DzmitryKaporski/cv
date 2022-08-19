@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
+  background-image: url(../cv/assets/img/background.jpg);
 }
 
 @media (max-width: 500px) {
@@ -137,44 +138,6 @@ button {
 
 }
 
-.header__popup {
-  margin-top: 15px;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  opacity: 0;
-  transition: all 1s ease-out;
-}
-
-.header__popup:hover {
-  opacity: 1;
-  transform: scale(1.1);
-  cursor: none;
-}
-
-.header__popup-text {
-  margin-left: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  width: 92%;
-  height: 25px;
-  font-weight: bold;
-  font-size: 25px;
-  color: black;
-  border-bottom: solid 2px white;
-  background: white;
-}
-
-.header__popup-qrcode {
-  margin-left: 14px;
-  width: 82%;
-  height: 72%;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-shadow: 0 20px 10px rgba(135, 122, 122, 0.469);
-}
-
 .header__title-box {
   width: 70.85%;
   display: flex;
@@ -186,7 +149,6 @@ button {
 @media (max-width: 861px) {
   .header__title-box {
     margin: 0 0 40px 10px;
-    background: white;
     color: black;
   }
 }
@@ -293,10 +255,10 @@ button {
 
 .portfolio__item-img {
   margin: 2px;
-  width: 200px;
-  height: 150px;
-  border: solid 1px black;
+  width: 130px;
+  height: 110px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(145, 130, 130, 0.89);
   cursor: pointer;
   transition: 0.5s;
 }
